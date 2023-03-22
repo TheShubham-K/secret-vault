@@ -1,0 +1,40 @@
+.keys-row {
+  cursor: pointer;
+}
+
+.keys-row:hover {
+  background-color: aliceblue;
+}
+.container-row {
+  height: 500px;
+}
+
+.scrollable-container {
+  width: auto;
+  height: 432px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+
+.msg {
+  position: relative;
+}
+
+.msg span {
+  background-color: antiquewhite;
+}
+
+.msg i {
+  position: absolute;
+  display: none;
+  cursor: pointer;
+}
+
+.msg:hover i {
+  display: block;
+}
+
+.selected-key {
+  background-color: aliceblue;
+}
